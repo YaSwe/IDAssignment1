@@ -14,7 +14,7 @@ During the design process of the website, an elegant black and white color schem
 - Navigate to HOME - Allow users to return to the homepage, by clicking on the restaurant logo.
 - Navigate to ABOUT US page - Allow users to go to the ABOUT US page, by clicking on the ABOUT US button.
 - Navigate to MENU page - Allow users to go to the MENU page, by clicking on the MENU button.
-- Navigate to FEEDBACk page - Allow users to go to the FEEDBACK page, by clicking on the FEEDBACK button.
+- Navigate to FEEDBACK page - Allow users to go to the FEEDBACK page, by clicking on the FEEDBACK button.
 
 In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
