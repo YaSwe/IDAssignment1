@@ -1,0 +1,656 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400&display=swap');
+
+/* Main */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+    line-height: 1.7;
+    font-size: 16px;
+    color: #333333;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+h1, h2, h3, h4, ul, ol {
+    margin-bottom: 24px;
+}
+
+h1, h2, h3, h4 {
+    margin-bottom: 30px;
+    font-family: "Source Sans Pro", Georgia, serif;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+}
+
+h2, h3, h4 {
+    margin-top: 42px;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 50px;
+    line-height: 1.135;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 19px;
+    line-height: 1.25;
+}
+
+aside, footer, header, section, .navigation {
+    display: block;
+}
+
+ul, ol {
+    margin-left: 48px;
+}
+
+.container {
+    max-width: 1104px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+hr, .seperator {
+    height: 0px;
+    margin: 42px 0;
+    border: 0;
+    border-bottom: 2px solid #d8d8d8;
+}
+
+strong {
+    font-weight: bold;
+    font-weight: 600;
+}
+
+label, input, textarea {
+    cursor: pointer;
+}
+
+/* Navigation bar */
+
+.nav-links li a {
+    text-decoration: none;
+    color: #000;
+    padding: 12px 10px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.navbar {
+    border-left-width: 0px;
+    border-right-width: 0px;
+    padding: 22px 0px;
+}
+
+.logo {
+    cursor: pointer;
+    max-height: 250px;
+    max-width: auto;
+    background-repeat: no-repeat;
+    margin-right: auto;
+}
+
+.item {
+    display: table-cell;
+    text-align: center;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.nav-links li a:hover {
+    text-decoration: underline;
+}
+
+.nav-links {
+    height: auto;
+    float: right;
+}
+
+.table {
+    display: table;
+    width: 100%;
+}
+
+/* Picture below navbar */
+
+.containerpic {
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+}
+
+.pic {
+    height: auto;
+    background-repeat: no-repeat;
+    display: block;
+    background-size: 100% 100%;
+    background-size: cover;
+    width: 100%;
+}
+
+.centertext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    font-size: 3.0vw;
+    font-weight: 400;
+    text-shadow: 1px 1px 10px rgb(0 0 0);
+}
+
+.feedback-btn {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    text-decoration: none;
+
+    background: #000000;
+    opacity: 1;
+    padding: 10px 30px 10px 30px;
+    box-shadow: none;
+    border-radius: 5px;
+}
+
+/* Parallax image */
+
+.container-parallax {
+    position: relative;
+    text-align: center;
+}
+
+.parallax-home {
+    background: url("https://stoneysbreadcompany.com/wp-content/uploads/2015/01/stoneys-sept22-7310.jpg") no-repeat center;
+    width: 100%;
+    background-size: 100% 100%;
+    display: block;
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.headline {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-size: 6.0vw;
+    letter-spacing: 0.2em;
+    font-weight: 400;
+    color: #ffffff;
+    text-shadow: 1px 1px 10px rgb(0 0 0);
+    opacity: 1;
+}
+
+/* News */
+
+.container {
+    max-width: 1104px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.news-container {
+    margin-top: 50px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.post-news {
+    display: block;
+    width: 100%;
+    float: none;
+    padding: 20px;
+    text-align: center;
+}
+
+.post-news h2 {
+    font-size: 23px;
+}
+
+.news p {
+    margin-bottom: 24px;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #121212;
+    color: white;
+    padding: 24px 0;
+}
+
+@media screen and (min-width: 900px) {
+    .footer {
+        padding: 66px 0 60px;
+    } }
+
+.container-footer {
+    margin: 0 auto;
+    padding: 0 24px;
+    margin: 0 128px;
+}
+        
+#text-5 {
+    width: 45%;
+    float: left;
+}
+
+.hours-text {
+    margin-top: 0;
+}
+
+.text-widget {
+    margin-bottom: 54px;
+}
+
+/* Copyright area */
+
+.copyright-area {
+    position: relative;
+    padding: 60px 0 48px 0;
+    font-size: 14px;
+    color: #919191;
+    background-color: #262526;
+    text-align: center;
+}
+
+.copyright-text {
+    margin: 10px 0;
+    color: #B3B3B3;
+    text-align: center;
+    float: none;
+}
+
+.container {
+    max-width: 1250px;
+}
+
+/* ---------- About us ---------- */
+
+/* Parallax image */
+
+.parallax-aboutus {
+    background: url("https://images.unsplash.com/photo-1592861956120-e524fc739696?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80") no-repeat center;
+    width: 100%;
+    background-size: 100% 100%;
+    display: block;
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
+/* About us */
+
+.aboutus {
+    margin-bottom: 78px;
+}
+
+.grid-container {
+    margin: 0 30px;
+}
+
+.pic-company {
+    width: 40%;
+    float: left;
+}
+
+.pic-story {
+    width: 40%;
+    float: right;
+}
+
+.pic-company, .pic-story, .grid-text {
+    padding-left: 48px;
+}
+
+.article-content p {
+    margin-bottom: 24px;
+}
+
+.grid-text {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.break { 
+    margin-top: 60px;
+}
+
+/* ---------- Menu ---------- */
+
+/* Parallax image */
+
+.parallax-menu {
+    background: url("https://images.unsplash.com/photo-1551183053-bf91a1d81141?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1232&q=80") no-repeat center;
+    width: 100%;
+    background-size: 100% 100%;
+    display: block;
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 50px; 
+}
+
+/* Menu */
+
+.article-content {
+    background-color: #ffffff;
+    overflow: hidden;
+}
+
+
+.starters hr {
+    margin: 36px 0;
+}
+
+.menu-list {
+    list-style: none;
+    margin-left: 0;
+}
+
+.item-name {
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 96px;
+    text-align: left;
+}
+
+.item-name .name {
+    position: relative;
+    overflow: hidden;
+}
+
+.name :after {
+    content: "";
+    position: absolute;
+    bottom: 0.5em;
+    width: 100%;
+    border-bottom: 1px dotted #000;
+}
+
+.item-price {
+    position: absolute;
+    top: 0;
+    right: 0;
+    max-width: 96px;
+    background-color: white;
+    font-size: 19px;
+    font-size: 1.1875rem;
+    line-height: 1.27316;
+    font-weight: bold;
+}
+
+.meunu-list > li {
+    display: table;
+}
+
+.menu-list li span {
+    display: table-cell;
+}
+
+.menu-list li span + span {
+    text-align: right;
+    vertical-align: bottom;
+    padding-left: 0.5em;
+}
+
+.menu-list-item {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.grid-text1 {
+    width: 50%;
+    vertical-align: top;
+    float: left;
+    padding-left: 48px;
+}
+
+.grid-text2 {
+    width: 50%;
+    vertical-align: top;
+    float: right;
+    padding-left: 48px;
+}
+
+/* ---------- Feedback ---------- */
+
+/* Parallax image */
+
+.parallax-feedback {
+    background: url("https://images.unsplash.com/photo-1574071318508-1cdbab80d002?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80") no-repeat center;
+    width: 100%;
+    background-size: 100% 100%;
+    display: block;
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 50px; 
+}
+
+/* Feedback */
+
+.feedback-container {
+    margin: 0 auto;
+    max-width: 700px;
+    display: block;
+}
+
+.form-container {
+    margin-bottom: 16px;
+    margin-top: 16px;
+    max-width: 100%;
+}
+
+.post-form {
+    text-align: left;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.article-content a {
+    color: #575757;
+    border: none;
+    text-decoration: none;
+    padding: 2px;
+}
+
+.article-content a:hover {
+    text-decoration: underline;
+}
+
+.fields {
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+    display: block;
+    list-style-type: none;
+}
+
+.fields-name {
+    margin-top: 16px;
+    padding-top: 0;
+    margin-left: 0;
+    list-style: none;
+    overflow: visible;
+}
+
+.container-firstlast label {
+    display: block;
+    font-size: .813em;
+    letter-spacing: .5pt;
+    margin: 1px 0 9px 1px;
+}
+
+.container-firstlast {
+    overflow: visible;
+    margin-top: 8px;
+}
+
+input[type="text"], textarea {
+    vertical-align: middle;
+    border: 1px solid #d8d8d8;
+    outline: 0;
+    border-radius: 5px;
+    padding: 5px 4px;
+    width: 100%;
+}
+
+.input-first, .input-last {
+    padding-top: 2px;
+    width: 50%;
+}
+
+.input-last {
+    float: right;
+}
+
+.comments {
+    overflow: hidden;
+    height: 160px;
+    width: 100%;
+}
+
+.fields > li {
+    margin-top: 16px;
+    padding-right: 16px;
+}
+
+.button {
+    width: auto;
+    margin: 0 16px 0 0;
+    background: #fff;
+    border: 2px solid #000;
+    padding: 15px 20px;
+    font-size: 21px;
+}
+
+input[type="submit"] {
+    width: auto;
+    margin: 0 16px 0 0;
+    background: #fff;
+    border: 2px solid #000;
+    padding: 15px 20px;
+    font-size: 21px;
+}
+
+.button-submit {
+    margin: 16px 0;
+    padding: 16px 0;
+}
+
+.button {
+    background-color: white;
+    border: 2px solid #555555;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+/* Media Queries */
+
+/* Padding top and bottom for navbar */
+@media screen and (min-width: 900px){
+    .navbar {
+        padding-bottom: 22px
+} }
+
+@media screen and (min-width: 900px){
+    .navbar {
+        padding-top: 22px
+} }
+
+/* Border right, left and top for heading */
+@media screen and (min-width: 900px){
+    .navbar {
+        border-right-width: 18px;
+} }
+
+@media screen and (min-width: 900px){
+    .navbar {
+        border-left-width: 18px;
+} }
+
+@media screen and (min-width: 900px){
+    .navbar {
+        border-top-width: 0px;
+} }
+
+
+/* Article padding top and bottom */
+
+@media only screen and (min-width: 900px) {
+    .article__content {
+        padding-top: 0;
+} }
+
+@media only screen and (min-width: 900px) {
+    .article__content {
+        padding-bottom: 78px;
+} }
+
+/* Menu padding top and bottom */
+
+@media only screen and (min-width: 900px) {
+    .article-content {
+        padding-top: 0;
+} }
+
+@media only screen and (min-width: 900px) {
+    .article-content {
+        padding-bottom: 78px;
+} }
+
+/* Form changes from horizontal to vertical display */
+
+@media only screen and (min-width: 641px) {
+.input-first {
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 16px;
+    margin-right: -4px;
+} }
+
+@media only screen and (min-width: 641px) {
+.fields-name {
+    padding-right: 16px;
+} }
+
+
